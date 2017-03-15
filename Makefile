@@ -11,8 +11,8 @@ dev_dependencies:
 	@./tools/install_deps.py requirements.dev.txt
 
 dependencies:
-	@./tools/install_deps.py requirements.txt
-	@./tools/check_js_deps.sh
+	./tools/install_deps.py requirements.txt
+	./tools/check_js_deps.sh
 
 db_init:
 	./tools/db_create.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -ex
 
 CHECKER='./node_modules/.bin/check-dependencies'
 
